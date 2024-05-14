@@ -7,7 +7,7 @@
             <div data-aos="flip-right" data-aos-duration="1500" data-aos-easing="ease-in-sine" data-aos-offset="0">
                 <div id="card" class="card card-side bg-base-100 shadow-xl">
                     <figure class="max-w-[40rem]">
-                        <img src="./assets/profil.jpg" alt="Movie"/>
+                        <img src="../assets/profil.jpg" alt="Movie"/>
                     </figure>
                     <div class="card-body self-center">
                         <h1 class="card-title">
@@ -32,27 +32,13 @@
             <div class="mt-24">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint a dolorem, optio atque, tenetur ipsa veritatis fugiat voluptas commodi inventore dolorum, sed architecto. Totam iste perferendis rem ullam facere dolore.</p>
             </div>
-            <div class="mt-36">
-                <Project id="Project"/>
-            </div>
         </div>
     </div>
 </template>
 
 <script>
-import Project from './Project.vue'
-
 export default {
-    name: 'Profile',
-    components: {
-        Project
-    },
-    created() {
-
-    },
-    methods: {
-
-    }
+    name: 'Profile'
 }
 </script>
 
